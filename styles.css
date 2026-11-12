@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+html, body, #app { height: 100%; margin: 0; padding: 0; }
+body {
+  font-family: "Microsoft YaHei", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f7fa;
+  color: #303133;
+}
+.page { padding: 16px; }
+.page-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; }
+.mb12 { margin-bottom: 12px; }
+.mt12 { margin-top: 12px; }
+.card-row { display: flex; gap: 16px; flex-wrap: wrap; }
+.stat-card { flex: 1; min-width: 200px; }
+.link { color: #409eff; cursor: pointer; }
